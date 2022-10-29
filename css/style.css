@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  background: rgb(236, 223, 241);
+}
+
+button {
+  border-radius: 4px;
+  background-color: rgb(233, 207, 245);
+  height: 25px;
+  width: 25px;
+  font-weight: bold;
+}
+
+#box {
+  max-width: 640px;
+  margin: 50px auto;
+  background: rgb(232, 226, 164);
+  padding: 20px;
+  border-radius: 10px;
+  border-color: black;
+}
+
+#nome-tarefa {
+  border-radius: 4px;
+  width: 250px;
+  height: 25px;
+}
+
+#titulo {
+  width: 250px;
+  margin: 20px auto;
+}
+
+#titulo-lista {
+  width: 300px;
+  margin: 20px auto;
+  align-content: center;
+}
+
+#lista-tarefas {
+  margin: 0 50px 0 150px; 
+  font-family: 'Architects Daughter', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 2em;
+}

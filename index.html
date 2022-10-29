@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de Tarefas</title>
-</head>
-<body>
-    <h1>To-do List</h1>
-    <input type="text" id="nome-tarefa">
-    <button onclick="adicionarTarefa()">Criar tarefa</button>
-    <div id="lista-tarefas"></div>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="box">
+      <div id="titulo-lista">
+        <img src="img/titulo.png" alt="Titulo" id="titulo" />
+        <input type="text" id="nome-tarefa" />
+        <button id="btn-tarefa" onclick="adicionarTarefa()">></button>
+      </div>
+      
+      <div id="lista-tarefas"></div>
+    </section>
+
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
