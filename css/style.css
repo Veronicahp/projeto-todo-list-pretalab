@@ -7,7 +7,8 @@
 
 body {
   margin: 0;
-  background: rgb(236, 223, 241);
+  background: linear-gradient(45deg, rgb(240, 170, 233), rgb(247, 247, 181));
+  height: 800px;
 }
 
 button {
@@ -21,7 +22,7 @@ button {
 #box {
   max-width: 640px;
   margin: 50px auto;
-  background: rgb(232, 226, 164);
+  background: rgba(179, 206, 244, 0.832);
   padding: 20px;
   border-radius: 10px;
   border-color: black;
