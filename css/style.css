@@ -7,13 +7,13 @@
 
 body {
   margin: 0;
-  background: linear-gradient(45deg, rgb(240, 170, 233), rgb(247, 247, 181));
+  background: linear-gradient(45deg, rgb(241, 134, 231), rgb(247, 247, 181));
   height: 1000px;
 }
 
 button {
   border-radius: 4px;
-  background-color: rgb(233, 207, 245);
+  background-color: rgb(229, 185, 249);
   height: 25px;
   width: 25px;
   font-weight: bold;
@@ -46,7 +46,7 @@ button {
 }
 
 #lista-tarefas {
-  margin: 0 50px 0 150px; 
+  padding: 0 50px 0 150px; 
   font-family: 'Architects Daughter', sans-serif;
   font-weight: 400;
   font-size: 1.2em;
