@@ -1,6 +1,5 @@
-# Projeto Final
+# Projeto final do módulo de JavaScript
 
-## 😀 Deploy
 
 [Link do projeto](https://todo-list-veronica.netlify.app)
 
